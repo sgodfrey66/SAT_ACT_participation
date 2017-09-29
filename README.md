@@ -97,9 +97,9 @@ Your instructors will score you using the scale below:
 
     Score | Expectations
     ----- | ------------
-    **0** | _Fail. At least one project criterion was not met or some flagrant issue (i.e. plagiarism) occurred._
-    **1** | _Pass. All project criteria were minimally met. Non-trivial changes would be needed to make this a work-ready presentation._
-    **2** | _Pass. All project criteria were met. This presentation needs, at most, trivial changes to be work-ready._
+    **0** | _Fail. At least one project criterion was not met or some flagrant issue occurred._
+    **1** | _Pass. Project criteria were minimally met. Non-trivial changes would be needed to make this work-ready._
+    **2** | _Pass. Project criteria were met. This presentation needs, at most, trivial changes to be work-ready._
     **3** | _Pass. This presentation is excellent, exceeds requirements in a substantial way, and is a model for the rest of the class._
 
  This will serve as a helpful overall gauge of whether you met the project goals!
