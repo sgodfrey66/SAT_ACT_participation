@@ -95,11 +95,11 @@ Be sure to rehearse and time your presentation before class.
 
 Your instructors will score you using the scale below:
 
-    Score | Expectations
-    ----- | ------------
-    0 | Fail. At least one project criterion was not met or some flagrant issue occurred.
-    1 | Pass. Project criteria were minimally met. Non-trivial changes would be needed to make this work-ready.
-    2 | Pass. Project criteria were met. This presentation needs, at most, trivial changes to be work-ready.
-    3 | Pass. This presentation is excellent, exceeds requirements in a substantial way, and is a model for the rest of the class.
+|      **Score**     |     **Expectations**     |
+|:-------------:|:--------------:|
+|  **0** | Fail. At least one project criterion was not met or some flagrant issue occurred. |
+| **1** | Pass. Project criteria were minimally met. Non-trivial changes would be needed to make this work-ready.    |
+| **2** | Pass. Project criteria were met. This presentation needs, at most, trivial changes to be work-ready. |
+| **3** | Pass. This presentation is excellent, exceeds requirements in a substantial way, and is a model for the rest of the class. |
 
  This will serve as a helpful overall gauge of whether you met the project goals!
