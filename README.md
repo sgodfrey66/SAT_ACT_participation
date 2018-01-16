@@ -30,16 +30,16 @@ Your work must _at a minimum_:
  - Create a blog post of at least 500 words (and 1-2 graphics!) describing your data, analysis, and approach. Link to it in your Jupyter notebook.
  - Using existing features, engineer new features
 
-While there are very specific asks in the starter code, these are only requirements, not restrictions. Feel free to do more EDA, feature engineering, visualization, etc. than what is requested.
+While there are very specific requests in the starter code, these are only requirements, not restrictions. Feel free to do more EDA, feature engineering, visualization, etc. than what is requested.
 ---
 
 ### Necessary Deliverables / Submission
 
 - Materials must be submitted in a clearly commented Jupyter notebook.
-- Notebook must be submitted via pushing to the remote repo.
+- Notebook must be submitted via pushing to your remote repo.
 - Presentation must be submitted via Slack (for a PowerPoint file) or shared via a Google Form.
 - Your notebook and presentation slides must be additionally hosted on your personal static site.
-- **Materials must be submitted by 9:00 AM on Friday, October 6th.**
+- **Materials must be submitted by 10:00 AM on Friday, January 26th.**
 
 ---
 
