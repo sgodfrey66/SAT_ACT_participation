@@ -39,7 +39,7 @@ While there are very specific requests in the starter code, these are only requi
 - Notebook must be submitted via pushing to your remote repo.
 - Presentation must be submitted via Slack (for a PowerPoint file) or shared via a Google Form.
 - Your notebook and presentation slides must be additionally hosted on your personal static site.
-- **Materials must be submitted by 10:00 AM on Friday, January 26th.**
+- **Materials must be submitted by 10:00 AM on Friday, May 4th.**
 
 ---
 
@@ -114,4 +114,4 @@ As a best practice, consider the following points when preparing your project.
   - Did you make your recommendations clear, or were the recommendations unclear?
   - Were your recommendations data-driven and based on the results of your work?
 
-Your final assessment ("grade" if you will) will be calculated based on a [topical rubric](https://docs.google.com/spreadsheets/d/19k8OZ42xzr7v9GDv2IUyD175yGjJlwTNokcufwX9Ago/edit?usp=sharing).  For each category, you will receive a score of 0-3.  From the [rubric](https://docs.google.com/spreadsheets/d/19k8OZ42xzr7v9GDv2IUyD175yGjJlwTNokcufwX9Ago/edit?usp=sharing) you can see descriptions of each score and what is needed to attain those scores.
+Your final assessment ("grade" if you will) will be calculated based on a [topical rubric](https://docs.google.com/spreadsheets/d/1V6OzSHPXCJEe_sVT7B1vE7sT-jqNMNo-NrmZHtafMXY/edit?usp=sharing).  For each category, you will receive a score of 0-3.  From the [rubric](https://docs.google.com/spreadsheets/d/1V6OzSHPXCJEe_sVT7B1vE7sT-jqNMNo-NrmZHtafMXY/edit?usp=sharing) you can see descriptions of each score and what is needed to attain those scores.
