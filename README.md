@@ -123,10 +123,10 @@ Your final assessment ("grade" if you will) will be calculated based on a topica
 
 The four categories for this rubric are:
 
-- [Organization](#Organization)
-- Data Structures
-- Python Syntax and Control Flow
-- Probability and Statistics
+- [Organization](#organization)
+- [Data Structures](#data-structures)
+- [Python Syntax and Control Flow](#python-syntax-and-control-flow)
+- [Probability and Statistics](#probability-and-statistics)
 
 
 #### Organization
