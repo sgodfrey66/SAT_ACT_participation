@@ -1,5 +1,9 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project 1: Standardized Testing, Statistical Summaries and Inference
 
+## Docker setup
+
+**Docker students only** (disregard if you're using Anaconda): For instructions on how to run lectures and labs in Docker, click here: https://youtu.be/E54JvUKnF-4
+
 ### Overview
 
 This week in class we went over some basic statistics, learned some Python programming concepts, and also learned how to navigate files, packages, and libraries using the command line. Great start! At this point you should be champing at the bit to _do some Data Science_. If so, good - because it's time for Project 1!
