@@ -44,7 +44,7 @@ While there are very specific requests in the starter code, these are only requi
 - Notebook must be submitted via pushing to your remote repo.
 - Presentation must be submitted via Slack (for a PowerPoint file) or shared via a Google Form.
 - Your notebook and presentation slides must be additionally hosted on your personal static site.
-- **Materials must be submitted by 10:00 AM on Friday, May 4th.**
+- **Materials must be submitted by 10:00 AM on Friday, ADD DUE DATE.**
 
 ---
 
