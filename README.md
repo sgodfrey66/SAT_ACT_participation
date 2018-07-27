@@ -31,6 +31,7 @@ Your work must _at a minimum_:
  - Using existing features, engineer new features
 
 While there are very specific requests in the starter code, these are only requirements, not restrictions. Feel free to do more EDA, feature engineering, visualization, etc. than what is requested.
+
 ---
 
 ### Necessary Deliverables / Submission
