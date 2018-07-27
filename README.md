@@ -115,4 +115,20 @@ As a best practice, consider the following points when preparing your project.
   - Did you make your recommendations clear, or were the recommendations unclear?
   - Were your recommendations data-driven and based on the results of your work?
 
-Your final assessment ("grade" if you will) will be calculated based on a [topical rubric](https://docs.google.com/spreadsheets/d/1V6OzSHPXCJEe_sVT7B1vE7sT-jqNMNo-NrmZHtafMXY/edit?usp=sharing).  For each category, you will receive a score of 0-3.  From the [rubric](https://docs.google.com/spreadsheets/d/1V6OzSHPXCJEe_sVT7B1vE7sT-jqNMNo-NrmZHtafMXY/edit?usp=sharing) you can see descriptions of each score and what is needed to attain those scores.
+---
+
+### Rubric
+
+Your final assessment ("grade" if you will) will be calculated based on a topical rubric (see below).  For each category, you will receive a score of 0-3.  From the rubric you can see descriptions of each score and what is needed to attain those scores.
+
+
+#### Organization
+
+Clearly commented, annotated and sectioned Jupyter notebook or Python script.  Comments and annotations add clarity, explanation and intent to the work.  Notebook is well-structured with title, author and sections. Assumptions are stated and justified.
+
+| Score                          | Description                                                                                                                                                                                                                                      |
+|--------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 0 - Does not Meet Expectations | 1) Comments and annotations are absent<br>2) There is no clear notebook structure3) Assumptions are not stated                                                                                                                                       |
+| 1 - Approaching Expectations   | 1) Comments are present but generally unclear or uninformative (e.g., comments do not clarify, explain or interpret the code)2) There are some structural components like section/subsection headings3) Assumptions are stated but not justified |
+|  2 - Meets Expectations        | 1) Comments and annotations are clear and informative2) There is a clear structure to the notebook with title and appropriate sectioning3) Assumptions are both stated and justified                                                             |
+| 3 - Exceeds Expectations       | 1) Comments and annotations are clear, informative and insightful2) There is a helpful and cogent structure to the notebook that clarifies the analysis flow3) Assumptions are stated, justified and backed by evidence or insight               |
