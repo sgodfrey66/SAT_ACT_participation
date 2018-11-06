@@ -1,32 +1,100 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project 1: Standardized Testing, Statistical Summaries and Inference
 
-## Docker setup
-
-**Docker students only** (disregard if you're using Anaconda): For instructions on how to run lectures and labs in Docker, click here: https://youtu.be/E54JvUKnF-4
-
 ### Overview
 
-This week in class we went over some basic statistics, learned some Python programming concepts, and also learned how to navigate files, packages, and libraries using the command line. Great start! At this point you should be champing at the bit to _do some Data Science_. If so, good - because it's time for Project 1!
+Our first module in DSI covers:
+- basic statistics (distributions, confidence intervals, hypothesis testing)
+- many Python programming concepts
+- programmatically interacting with files and directories
+- visualizations
+- EDA
+You might wonder if you're ready to start doing data science. While you still have **tons** to learn, there are many aspects of the data science process that you're ready to tackle. Project 1 aims to allow you to practice and demonstrate these skills.
 
-For our first project, we're going to take a look at SAT and ACT scores around the United States. Suppose that the College Board - the organization that administers the SAT - seeks to improve the participation rate of its exams. Your presentation should be geared toward **non-technical** executives with the College Board and you will use, at minimum, the provided data to make recommendations about how the College Board might work to increase the participation rates of these exams.
+For our first project, we're going to take a look at aggregate SAT and ACT scores and participation rates from each state in the United States. We'll seek to identify trends in the data and combine our data analysis with outside research to identify likely factors influencing participation rates and scores in various states.
 
-**Goal**: A Jupyter notebook that describes your data with visualizations & statistical analysis.
-
-**Goal**: A 5-7 minute presentation targeted to your hypothetical client that highlights your findings.
-
-**Goal**: Your Jupyter notebook hosted on your personal static site.
+Generally speaking, you will be asked to come up with a data science problem. Here's a specific prompt that should help you craft this statement:
+> The new format for the SAT was released in March 2016. As an employee of the College Board - the organization that administers the SAT - you are a part of a team that tracks statewide participation and recommends where money is best spent to improve SAT participation rates. Your presentation and report should be geared toward **non-technical** executives with the College Board and you will use the provided data and outside research to make recommendations about how the College Board might work to increase the participation rate in a **state of your choice**.
 
 ---
 
-### Requirements
+### Datasets
 
-Your work must _at a minimum_:
+#### Provided Data
 
-- Describe the data
-- Perform methods of exploratory data analysis, including:
-  - Use Matplotlib to create visualizations
-  - Use NumPy to explore distributions of individual variables and relationships among pairs of variables
-- Display your cleaned Jupyter notebook on a personal static website.
+For this project, you'll have two provided datasets:
+
+- [Dataset: SAT Scores](./data/sat.csv)
+- [Dataset: ACT Scores](./data/act.csv)
+
+These data give average SAT and ACT scores by state, as well as participation rates, for the graduating class of 2017.
+
+You can see the source for the SAT data [here](https://blog.prepscholar.com/average-sat-scores-by-state-most-recent), and the source for the ACT data [here](https://blog.prepscholar.com/act-scores-by-state-averages-highs-and-lows). **Make sure you cross-reference your data with your data sources to eliminate any data collection or data entry issues.**
+
+#### Additional Data
+
+2018 state-by-state average results and participation for the SAT are available in PDF reports [here](https://reports.collegeboard.org/sat-suite-program-results/state-results). 2018 ACT state-by-state results are [here](http://www.act.org/content/dam/act/unsecured/documents/cccr2018/Average-Scores-by-State.pdf).
+
+---
+
+### Deliverables
+
+All of your projects will comprise of a written technical report and a presentation. As we continue in the course, your technical report will grow in complexity, but for this initial project it will comprise:
+- A Jupyter notebook that describes your data with visualizations & statistical analysis.
+- A README markdown file the provides an introduction to and overview of your project.
+- Your presentation slideshow rendered as a .pdf file.
+**NOTE**: Your entire Github repository will be evaluated as your technical report. Make sure that your files and directories are named appropriately, that all necessary files are included, and that no unnecessary or incomplete files are included.
+
+For your first presentation, you'll be presenting to a **non-technical** audience. You should prepare a slideshow with appropriately scaled visuals to complement a compelling narrative. **Presentation duration will differ by market, so check with your local instructor.**
+
+---
+
+### Submission
+
+**Materials must be submitted by the beginning of class on November 20.**
+
+Your technical report will be hosted on Github Enterprise. Make sure it includes:
+
+- A README.md (that isn't this file)
+- Jupyter notebook(s) with your analysis
+- Data files
+- Presentation slides
+- Any other necessary files (images, etc.)
+
+**Check with your local instructor for how they would like you to submit your repo for review.**
+
+---
+
+### Presentation Structure
+
+- **Must be within time limit established by local instructor.**
+- Use Google Slides or some other visual aid.
+- Consider the audience. Assume you are presenting to non-technical executives with the College Board (the organization that administers the SATs).
+- Start with the **data science problem**.
+- Use visuals that are appropriately scaled and interprettable.
+- Talk about your procedure/methodology (high level, **CODE IS ALWAYS INAPPROPRIATE FOR A NON-TECHNICAL AUDIENCE**).
+- Talk about your primary findings.
+- Make sure you provide **clear recommendations** that follow clearly from your analyses and narrative and answer your data science problem.
+
+Be sure to rehearse and time your presentation before class.
+
+---
+
+### Technical Report Requirements
+
+Future projects will require you to decide on the entire structure of your technical report. Here, we provide you with [starter code](./code/starter-code.ipynb) in a Jupyter notebook that will help to guide your data exploration and analysis.
+
+Skills you will demonstrate:
+
+- Module imports (using appropriate aliases)
+- Data import (using relative paths)
+- Data munging
+- Exploratory data analysis (EDA), including:
+    - Summary statistics
+    - Visualizations
+- Data cleaning
+    - Are there data entry issues?
+    - Are data appropriately labeled?
+
 
 #### ***Bonus:***
  - Recreate all of your MatPlotLib graphs in Seaborn!
@@ -38,61 +106,11 @@ While there are very specific requests in the starter code, these are only requi
 
 ---
 
-### Necessary Deliverables / Submission
-
-- Materials must be submitted in a clearly commented Jupyter notebook.
-- Notebook must be submitted via pushing to your remote repo.
-- Presentation must be submitted via Slack (for a PowerPoint file) or shared via a Google Form.
-- Your notebook and presentation slides must be additionally hosted on your personal static site.
-- **Materials must be submitted by 10:00 AM on Friday, ADD DUE DATE.**
-
----
-
 ### Starter code
 
-For this project we will be using a Jupyter notebook. This notebook will use matplotlib for plotting and visualizing our data. This type of visualization is handy for prototyping and quick data analysis. We will discuss more advanced data visualizations for communicating your work.
 
-Open the [starter code instructions](./code/) in a Jupyter notebook.
-
-### Dataset
-
-For this project, you'll be using two datasets:
-
-- [Dataset: SAT Scores](./data/sat.csv)
-- [Dataset: ACT Scores](./data/act.csv)
-
-You can see the source for the SAT data [here](https://blog.prepscholar.com/average-sat-scores-by-state-most-recent), and the source for the ACT data [here](https://blog.prepscholar.com/act-scores-by-state-averages-highs-and-lows).
-
-These data give average SAT and ACT scores by state, as well as participation rates, for the graduating class of 2017.
 
 ---
-
-### Presentation Structure
-
-- 5-7 minutes long.
-- Use PowerPoint or some other visual aid.
-- Consider the audience. Assume you are presenting to non-technical executives with the College Board (the organization that administers the SATs).
-- Start with the guiding question/big idea.
-- Talk about your procedure/methodology (high level, no need to show code unless you found a useful method to share).
-- Talk about your findings/answers to prompts (include visuals).
-- Conclude - highlight any next steps, further questions, what you would do with more time, additional data that would be useful.
-
-Be sure to rehearse and time your presentation before class.
-
----
-
-### Suggested Ways to Get Started
-
-- Read in your datasets.
-- Try out a few NumPy commands to describe your data.
-- Write pseudocode before you write actual code. Thinking through the logic of something helps.  
-- Read the documentation for whatever technologies you use. Learning how to read documentation is crucial to your success - and oftentimes the documentation will include a tutorial you can follow!
-- Document **everything**.
-
-### Useful Resources
-
-- [How to find the data you need](http://flowingdata.com/2009/10/01/30-resources-to-find-the-data-you-need/)
-- [How to give a good lightning talk](https://www.semrush.com/blog/16-ways-to-prepare-for-a-lightning-talk/)
 
 ---
 
@@ -125,70 +143,4 @@ As a best practice, consider the following points when preparing your project.
 
 Your final assessment ("grade" if you will) will be calculated based on a topical rubric (see below).  For each category, you will receive a score of 0-3.  From the rubric you can see descriptions of each score and what is needed to attain those scores.
 
-The four categories for this rubric are:
 
-- [Organization](#organization)
-- [Data Structures](#data-structures)
-- [Python Syntax and Control Flow](#python-syntax-and-control-flow)
-- [Probability and Statistics](#probability-and-statistics)
-- [Presentation](#presentation)
-
-
-#### Organization
-
-Clearly commented, annotated and sectioned Jupyter notebook or Python script.  Comments and annotations add clarity, explanation and intent to the work.  Notebook is well-structured with title, author and sections. Assumptions are stated and justified.
-
-
-| Score | Status                     | Examples                                                                                                                                                                                                                                         |
-|-------|----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 0     | Does not Meet Expectations | 1. Comments and annotations are **absent** <br> 2. There is no clear notebook structure <br> 3. Assumptions are not stated                                                                                                                                       |
-| 1     | Approaching Expectations   | 1. Comments are present but generally unclear or uninformative (e.g., comments do not clarify, explain or interpret the code) <br> 2. There are some structural components like section/subsection headings <br> 3. Assumptions are stated but not justified |
-| 2     | Meets Expectations         | 1. Comments and annotations are clear and informative <br> 2. There is a clear structure to the notebook with title and appropriate sectioning <br> 3. Assumptions are both stated and justified                                                             |
-| 3     | Exceeds Expectations       | 1. Comments and annotations are clear, informative and insightful <br> 2. There is a helpful and cogent structure to the notebook that clarifies the analysis flow <br> 3. Assumptions are stated, justified and backed by evidence or insight               |
-
-
-#### Data Structures
-
-Python data structures including lists, dictionaries and imported structures (e.g. DataFrames), are created and used correctly.  The appropriate data structures are used in context.  Data structures are created and accessed using appropriate mechanisms such as comprehensions, slices, filters and copies.
-
-| Score | Status | Examples |
-|-------|----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 0 | Does not Meet Expectations | 1. Appropriate data structures are not identified or implemented <br> 2. Data structures are not created appropriately <br> 3. Data structures are not accessed or used effectively |
-| 1 | Approaching Expectations | 1. Contextually appropriate data structures are identified in some but not all instances <br> 2. Data structures are created successfully but lacked efficiency or generality (e.g., structures were hard-coded with values that limits generalization; brute-force vs automatic creation/population of data) <br> 3. Data structures are accessed or used but best practices are not adopted |
-| 2 | Meets Expectations | 1. Contextually appropriate data structures are identified and implemented given the context of the problem <br> 2. Data structures are created in an effective manner <br> 3. Data structures are accessed and used following general programming and Pythonic best practices |
-| 3 | Exceeds Expectations | 1. Use or creation of data structures is clever and insightful <br> 2. Data structures are created in a way that reveals significant Pythonic understanding <br> 3. Data structures are used or applied in clever or insightful ways |
-
-
-#### Python Syntax and Control Flow
-
-Python code is written correctly and follows standard style guidelines and best practices.  There are no runtime errors.  The code is expressive while being reasonably concise.
-
-| Score | Status | Examples |
-|-------|----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 0 | Does not Meet Expectations | 1. Code has systemic syntactical issues <br> 2. Code generates incorrect results <br> 3. Code is disorganized and needlessly difficult |
-| 1 | Approaching Expectations | 1. Code is generally correct with some runtime errors <br> 2. Code logic is generally correct but does not produce the desired outcome <br> 3. Code is somewhat organized and follows some stylistic conventions |
-| 2 | Meets Expectations | 1. Code is syntactically correct (no runtime errors) <br> 2. Code generates desired results (logically correct) <br> 3. Code follows general best practices and style guidelines |
-| 3 | Exceeds Expectations | 1. Code adopts clever or advanced syntax <br> 2. Code generates desired results in an easily consumable manner (e.g., results are written to screen, file, pipeline, etc, as appropriate within the flow of the analysis) <br> 3. Code is exceptionally expressive, well formed and organized |
-
-
-#### Probability and Statistics
-
-Descriptive and inferential statistics are calculated and applied where appropriate.  Probabilistic reasoning is demonstrated.  There is a clear understanding of how probability and statistics affects the analysis being performed.
-
-| Score | Status | Examples |
-|-------|----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 0 | Does not Meet Expectations | 1. Descriptive statistical calculations are absent <br> 2. Inferential statistical calculations are absent <br> 3. Probabilities or statistics are not relevant given the context of the analysis |
-| 1 | Approaching Expectations | 1. Descriptive statistics are present in some cases <br> 2. Inferential statistics are present in some cases <br> 3. Probabilities or statistics are somewhat relevant to the analysis context |
-| 2 | Meets Expectations | 1. Descriptive statistics are calculated in all relevant situations <br> 2. Inferential statistics are calculated in all relevant situations <br> 3. Probabilities or statistics are relevant to the analysis |
-| 3 | Exceeds Expectations | 1. Descriptive statistics are calculated, interpreted and visualized (where appropriate) <br> 2. Inferential statistics are calculated, interpreted and visualized (where appropriate) <br> 3. Probabilities or statistics are leveraged to draw meaningful or insightful conclusions |
-
-#### Presentation
-
-The goal, methodology and results of your work are presented in a clear, concise and thorough manner.  The presentation is appropriate for the specified audience, and includes relevant and enlightening visual aides as appropriate. 
-
-| Score | Status | Examples |
-|-------|----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 0 | Does not Meet Expectations | 1. The problem was not well explained or ambiguous. <br> 2. The level of technicality was far above or below the target audience. <br> 3. The presentation went substantially over or under time. <br> 4. The speaker's voice was difficult to hear of unclear. <br> 5. The presentation visuals did not seem to support the talk. |
-| 1 | Approaching Expectations | 1. The problem was stated but was not 100% clear. <br> 2. The level of technicality was was good at times, but too low or too high at other times given the target audience. <br> 3. The presentation was given went slightly over or under time. <br> 4. The speaker's voice was at times difficult to understand. <br> 5. The presentation visuals were generally helpful, but some of them were either too complex or disconnected from the narrative. |
-| 2 | Meets Expectations | 1. The problem was framed appropriately for the audience. <br> 2. The level of technicality was appropriate to the target audience. <br> 3. The presentation was given within the allocated timeframe. <br> 4. The speaker's voice had volume and clarity. <br> 5. The presentation visuals were helpful and supportive. |
-| 3 | Exceeds Expectations | 1. The problem was expertly stated and compelling. <br> 2. The level of technicality was perfect for the target audience. <br> 3. The presentation was given within the allocated timeframe and paced evenly throughout. <br> 4. The speaker's voice was clear, understandable and consistent. <br> 5. The presentation visuals provided distinct insight, supported the speaker from the background, and were not distracting. |
