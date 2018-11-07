@@ -52,6 +52,12 @@ For your first presentation, you'll be presenting to a **non-technical** audienc
 
 ---
 
+### Technical Report Starter Code
+
+Future projects will require you to decide on the entire structure of your technical report. Here, we provide you with [starter code](./code/starter-code.ipynb) in a Jupyter notebook that will help to guide your data exploration and analysis. **If you choose to edit the core structure of this notebook, make sure you don't exclude any of the requested operations**.
+
+---
+
 ### Submission
 
 **Materials must be submitted by the beginning of class on November 20.**
@@ -83,61 +89,61 @@ Be sure to rehearse and time your presentation before class.
 
 ---
 
-### Technical Report Requirements
-
-Future projects will require you to decide on the entire structure of your technical report. Here, we provide you with [starter code](./code/starter-code.ipynb) in a Jupyter notebook that will help to guide your data exploration and analysis.
-
-Skills you will demonstrate:
-
-- Module imports (using appropriate aliases)
-- Data import (using relative paths)
-- Data munging & manipulation
-    - Combining datasets
-    - Masking
-    - Sorting
-- Data cleaning
-    - Are there data entry issues?
-    - Are data appropriately labeled?
-    - Are data appropriately typed?
-- Exploratory data analysis (EDA)
-    - Summary statistics
-    - Visualizations
-- Distributions and st
-- Markdown formatting
-- Crafting a narrative
-    - Crafting a problem statement
-    - Using interpretive comments
-    - Providing meaningful conclusions and recommendations
-
----
-
-### Project Feedback + Evaluation
-
-Data science is a field in which we apply data to solve real-world problems. Therefore, projects and presentations are means by which we can assess your ability to solve real-world problems in a data-driven manner.
-
-As a best practice, consider the following points when preparing your project.
-1. **Project Requirements: Did you meet all project requirements?** In answering this question, your instructors want to assess how well you met the project requirements as established. These will generally be laid out in the project readme.
-
-2. **Audience: Is your presentation appropriate for the stakeholder?** In answering this question, your instructors want to assess how well you present your results to stakeholders. For example:
-  - Did you frame the problem appropriately for the audience?
-  - Did you use the appropriate level of technical language for your audience?
-  - Did you effectively use your time, or did you encounter an issue such as going significantly beyond or under the allotted time or rushing to conclude the presentation in the allotted time?
-  - Did you present effectively, or were there things that detract from the overall presentation such as not speaking loudly enough for the audience or repeating oneself?
-
-3. **Methods: Are your methods appropriate for solving the problem?** In answering this question, your instructors want to assess how well you have applied data science methodology to the problem at hand. For example:
-  - Did you make well-reasoned modeling choices, or is there clear evidence that the model is inadequate or improper?
-  - Are you able to clearly defend your methodological decisions and results?
-  - Did you generalize your results properly, or were your conclusions/inferences improper or fallacious?
-
-4. **Value: Have you provided value to the stakeholder through clear, data-driven recommendations?** In answering this question, your instructors want to assess the value you provide to the stakeholder as a data scientist. For example:
-  - Did you answer the problem posed to you?
-  - Did you make your recommendations clear, or were the recommendations unclear?
-  - Were your recommendations data-driven and based on the results of your work?
-
----
-
 ### Rubric
+    
+**Project Organization**
+- Are modules imported correctly (using appropriate aliases)?
+- Are data imported/saved using relative paths?
+- Does the README provide a good executive summary of the project?
+- Is markdown formatting used appropriately to structure notebooks?
+- Are there an appropriate amount of comments to support the code?
+- Are files & directories organized correctly?
+- Are there unnecessary files included?
+- Do files and directories have well-structured, appropriate, consistent names?
 
-Your final assessment ("grade" if you will) will be calculated based on a topical rubric (see below).  For each category, you will receive a score of 0-3.  From the rubric you can see descriptions of each score and what is needed to attain those scores.
+**Clarity of Message**
+- Is the problem statement clearly presented?
+- Does a strong narrative run through the project?
+- Does the student provide appropriate context to connect individual steps back to the overall project?
+- Is it clear how the final recommendations were reached?
+- Are the conclusions/recommendations clearly stated?
 
+**Python Syntax and Control Flow**
+- Is care taken to write human readable code?
+- Is the code syntactically correct (no runtime errors)?
+- Does the code generate desired results (logically correct)?
+- Does the code follows general best practices and style guidelines?
+- Are Pandas functions used appropriately?
+- Does the student demonstrate mastery masking in Pandas?
+- Does the student demonstrate mastery sorting in Pandas?
 
+**Data Cleaning and EDA**
+- Does the student fix data entry issues?
+- Are data appropriately labeled?
+- Are data appropriately typed?
+- Are datasets combined correctly?
+- Are appropriate summary statistics provided?
+- Are steps taken during data cleaning and EDA framed appropriately?
+
+**Visualizations**
+- Are the requested visualizations provided?
+- Do plots accurately demonstrate valid relationships?
+- Are plots labeled properly?
+- Plots interpreted appropriately?
+- Are plots formatted and scaled appropriately for inclusion in a notebook-based technical report?
+
+**Research and Conceptual Understanding**
+- Were useful insights gathered from outside sources?
+- Are sources clearly identified?
+- Does the student provide appropriate interpretation with regards to descriptive and inferential statistics? 
+
+**Presentation**
+- Is the problem statement clearly presented?
+- Does a strong narrative run through the presentation building toward a final conclusion?
+- Are the conclusions/recommendations clearly stated?
+- Is the level of technicality appropriate for the intended audience?
+- Is the student substantially over or under time?
+- Does the student appropriately pace their presentation?
+- Does the student deliver their message with clarity and volume?
+- Are appropriate visualizations generated for the intended audience?
+- Are visualizations necessary and useful for supporting conclusions/explaining findings?
