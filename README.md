@@ -8,6 +8,7 @@ Our first module in DSI covers:
 - programmatically interacting with files and directories
 - visualizations
 - EDA
+- working with Jupyter notebooks for development and reporting
 
 You might wonder if you're ready to start doing data science. While you still have **tons** to learn, there are many aspects of the data science process that you're ready to tackle. Project 1 aims to allow you to practice and demonstrate these skills.
 
@@ -35,7 +36,7 @@ You can see the source for the SAT data [here](https://blog.prepscholar.com/aver
 
 2018 state-by-state average results and participation for the SAT are available in PDF reports [here](https://reports.collegeboard.org/sat-suite-program-results/state-results). 2018 ACT state-by-state mean composite scores and participation rates are [here](http://www.act.org/content/dam/act/unsecured/documents/cccr2018/Average-Scores-by-State.pdf) .
 
-**You will be manually collecting this data.**
+**You will be manually collecting this data (but this responsibility with be shared with your peers--check with your local instructor).**
 
 ---
 
@@ -90,29 +91,23 @@ Skills you will demonstrate:
 
 - Module imports (using appropriate aliases)
 - Data import (using relative paths)
-- Data munging
-- Exploratory data analysis (EDA), including:
-    - Summary statistics
-    - Visualizations
+- Data munging & manipulation
+    - Combining datasets
+    - Masking
+    - Sorting
 - Data cleaning
     - Are there data entry issues?
     - Are data appropriately labeled?
-
-#### ***Bonus:***
- - Recreate all of your MatPlotLib graphs in Seaborn!
- - Use Tableau Public to create visualizations!
- - Create a blog post of at least 500 words (and 1-2 graphics!) describing your data, analysis, and approach. Link to it in your Jupyter notebook.
- - Using existing features, engineer new features
-
-While there are very specific requests in the starter code, these are only requirements, not restrictions. Feel free to do more EDA, feature engineering, visualization, etc. than what is requested.
-
----
-
-### Starter code
-
-
-
----
+    - Are data appropriately typed?
+- Exploratory data analysis (EDA)
+    - Summary statistics
+    - Visualizations
+- Distributions and st
+- Markdown formatting
+- Crafting a narrative
+    - Crafting a problem statement
+    - Using interpretive comments
+    - Providing meaningful conclusions and recommendations
 
 ---
 
