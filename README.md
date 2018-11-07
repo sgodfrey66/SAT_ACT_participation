@@ -8,6 +8,7 @@ Our first module in DSI covers:
 - programmatically interacting with files and directories
 - visualizations
 - EDA
+
 You might wonder if you're ready to start doing data science. While you still have **tons** to learn, there are many aspects of the data science process that you're ready to tackle. Project 1 aims to allow you to practice and demonstrate these skills.
 
 For our first project, we're going to take a look at aggregate SAT and ACT scores and participation rates from each state in the United States. We'll seek to identify trends in the data and combine our data analysis with outside research to identify likely factors influencing participation rates and scores in various states.
@@ -23,8 +24,8 @@ Generally speaking, you will be asked to come up with a data science problem. He
 
 For this project, you'll have two provided datasets:
 
-- [Dataset: SAT Scores](./data/sat.csv)
-- [Dataset: ACT Scores](./data/act.csv)
+- [2017 SAT Scores](./data/sat_2017.csv)
+- [2017 ACT Scores](./data/act_2017.csv)
 
 These data give average SAT and ACT scores by state, as well as participation rates, for the graduating class of 2017.
 
@@ -94,7 +95,6 @@ Skills you will demonstrate:
 - Data cleaning
     - Are there data entry issues?
     - Are data appropriately labeled?
-
 
 #### ***Bonus:***
  - Recreate all of your MatPlotLib graphs in Seaborn!
