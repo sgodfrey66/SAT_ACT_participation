@@ -104,6 +104,7 @@ Your local instructor will evaluate your project (for the most part) using the f
 
 **Scores will be out of 21 points based on the 7 items in the rubric.**<br>
 *3 points per section*<br>
+
 | Score | Interpretation |
 | --- | --- |
 | **0** | *Student fails to meet the outlined expectations; many major issues exist.* |
