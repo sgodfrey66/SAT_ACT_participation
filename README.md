@@ -90,7 +90,7 @@ Your technical report will be hosted on Github Enterprise. Make sure it includes
 - Use Google Slides or some other visual aid (Keynote, Powerpoint, etc).
 - Consider the audience. Assume you are presenting to non-technical executives with the College Board (the organization that administers the SATs).
 - Start with the **data science problem**.
-- Use visuals that are appropriately scaled and interprettable.
+- Use visuals that are appropriately scaled and interpretable.
 - Talk about your procedure/methodology (high level, **CODE IS ALWAYS INAPPROPRIATE FOR A NON-TECHNICAL AUDIENCE**).
 - Talk about your primary findings.
 - Make sure you provide **clear recommendations** that follow logically from your analyses and narrative and answer your data science problem.
