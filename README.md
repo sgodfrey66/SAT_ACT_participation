@@ -107,10 +107,10 @@ Your local instructor will evaluate your project (for the most part) using the f
 
 | Score | Interpretation |
 | --- | --- |
-| **0** | *Student fails to meet the outlined expectations; many major issues exist.* |
-| **1** | *Student fails to meet many expectations; many minor issues or a few major issues.* |
-| **2** | *Student successfully meets most expectations with few (and relatively minor) mistakes.* |
-| **3** | *Student clearly exemplifies and demonstrates their understanding of all of the considerations outlined.* |
+| **0** | *Project fails to meet the outlined expectations; many major issues exist.* |
+| **1** | *Project approaches meeting expectations; many minor issues or a few major issues.* |
+| **2** | *Project successfully meets most expectations with few (and relatively minor) mistakes.* |
+| **3** | *Project clearly exemplifies and demonstrates their understanding of all of the considerations outlined.* |
     
 **Project Organization**
 - Are modules imported correctly (using appropriate aliases)?
