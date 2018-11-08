@@ -100,7 +100,15 @@ Be sure to rehearse and time your presentation before class.
 ---
 
 ### Rubric
-Your local instructor will evaluate your project (for the most part) using the following criteria.  You should make sure that you consider and/or follow most if not all of the considerations/recommendations outline below **while** working through your project.
+Your local instructor will evaluate your project (for the most part) using the following criteria.  You should make sure that you consider and/or follow most if not all of the considerations/recommendations outlined below **while** working through your project.
+
+#### Scoring
+**Scores will be out of 21 points based on the 7 items in the rubric.**
+*3 Points per section*
+**0** : Student fails to meet the outlined expectations; many major issues exist.
+**1** : Student fails to meet many expectations; many minor issues or a few major issues.
+**2** : Student successfully meets most expectations with few (and relatively minor) mistakes.
+**3** : Student clearly exemplifies and demonstrates their understanding of all of the considerations outlined.
     
 **Project Organization**
 - Are modules imported correctly (using appropriate aliases)?
@@ -158,3 +166,7 @@ Your local instructor will evaluate your project (for the most part) using the f
 - Does the student deliver their message with clarity and volume?
 - Are appropriate visualizations generated for the intended audience?
 - Are visualizations necessary and useful for supporting conclusions/explaining findings?
+
+### REMEMBER:
+
+This is a learning environment and you are encouraged to try new things, even if they end up failing. While this rubric outlines what we look for in a _good_ project, it is up to you to go above and beyond to create a _great_ project. **Learn from your failures and you'll be prepared to succeed in the workforce**.
