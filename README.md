@@ -102,13 +102,12 @@ Be sure to rehearse and time your presentation before class.
 ### Rubric
 Your local instructor will evaluate your project (for the most part) using the following criteria.  You should make sure that you consider and/or follow most if not all of the considerations/recommendations outlined below **while** working through your project.
 
-#### Scoring
-**Scores will be out of 21 points based on the 7 items in the rubric.**
-*3 Points per section*
-**0** : Student fails to meet the outlined expectations; many major issues exist.
-**1** : Student fails to meet many expectations; many minor issues or a few major issues.
-**2** : Student successfully meets most expectations with few (and relatively minor) mistakes.
-**3** : Student clearly exemplifies and demonstrates their understanding of all of the considerations outlined.
+**Scores will be out of 21 points based on the 7 items in the rubric.**<br>
+*3 Points per section*<br>
+**0** : Student fails to meet the outlined expectations; many major issues exist.<br>
+**1** : Student fails to meet many expectations; many minor issues or a few major issues.<br>
+**2** : Student successfully meets most expectations with few (and relatively minor) mistakes.<br>
+**3** : Student clearly exemplifies and demonstrates their understanding of all of the considerations outlined.<br>
     
 **Project Organization**
 - Are modules imported correctly (using appropriate aliases)?
