@@ -64,7 +64,7 @@ Future projects will require you to decide on the entire structure of your techn
 
 Here's a link on [how to give a good lightning talk](https://www.semrush.com/blog/16-ways-to-prepare-for-a-lightning-talk/), which provides some good recommendations for short presentations.
 
-[Here's a great summary](https://towardsdatascience.com/storytelling-with-data-a-data-visualization-guide-for-business-professionals-97d50512b407) of the main points of the book _Storytelling with Data_, which I can't recommend enough. [Here's a blog post](http://www.storytellingwithdata.com/blog/2017/8/9/my-guiding-principles) by the author about his guiding principles to visualizations.
+[Here's a great summary](https://towardsdatascience.com/storytelling-with-data-a-data-visualization-guide-for-business-professionals-97d50512b407) of the main points of the book _Storytelling with Data_, which I can't recommend enough. [Here's a blog post](http://www.storytellingwithdata.com/blog/2017/8/9/my-guiding-principles) by the author about his guiding principles for visualizations.
 
 ---
 
@@ -75,7 +75,7 @@ Here's a link on [how to give a good lightning talk](https://www.semrush.com/blo
 Your technical report will be hosted on Github Enterprise. Make sure it includes:
 
 - A README.md (that isn't this file)
-- Jupyter notebook(s) with your analysis
+- Jupyter notebook(s) with your analysis (renamed to describe your project)
 - Data files
 - Presentation slides
 - Any other necessary files (images, etc.)
@@ -93,7 +93,7 @@ Your technical report will be hosted on Github Enterprise. Make sure it includes
 - Use visuals that are appropriately scaled and interprettable.
 - Talk about your procedure/methodology (high level, **CODE IS ALWAYS INAPPROPRIATE FOR A NON-TECHNICAL AUDIENCE**).
 - Talk about your primary findings.
-- Make sure you provide **clear recommendations** that follow clearly from your analyses and narrative and answer your data science problem.
+- Make sure you provide **clear recommendations** that follow logically from your analyses and narrative and answer your data science problem.
 
 Be sure to rehearse and time your presentation before class.
 
@@ -110,7 +110,7 @@ Your local instructor will evaluate your project (for the most part) using the f
 | **0** | *Project fails to meet the outlined expectations; many major issues exist.* |
 | **1** | *Project approaches meeting expectations; many minor issues or a few major issues.* |
 | **2** | *Project successfully meets most expectations with few (and relatively minor) mistakes.* |
-| **3** | *Project clearly exemplifies and demonstrates their understanding of all of the considerations outlined.* |
+| **3** | *Project clearly exemplifies and demonstrates student's understanding of all of the considerations outlined.* |
     
 **Project Organization**
 - Are modules imported correctly (using appropriate aliases)?
