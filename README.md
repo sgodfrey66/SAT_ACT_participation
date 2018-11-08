@@ -77,7 +77,7 @@ Your technical report will be hosted on Github Enterprise. Make sure it includes
 ### Presentation Structure
 
 - **Must be within time limit established by local instructor.**
-- Use Google Slides or some other visual aid.
+- Use Google Slides or some other visual aid (Keynote, Powerpoint, etc).
 - Consider the audience. Assume you are presenting to non-technical executives with the College Board (the organization that administers the SATs).
 - Start with the **data science problem**.
 - Use visuals that are appropriately scaled and interprettable.
@@ -90,6 +90,7 @@ Be sure to rehearse and time your presentation before class.
 ---
 
 ### Rubric
+Your local instructor will evaluate your project (for the most part) using the following criteria.  You should make sure that you consider and/or follow most if not all of the considerations/recommendations outline below **while** working through your project.
     
 **Project Organization**
 - Are modules imported correctly (using appropriate aliases)?
