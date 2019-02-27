@@ -60,7 +60,7 @@ Future projects will require you to decide on the entire structure of your techn
 
 ### Style Guide and Suggested Resources
 
-[Tim Dwyer](https://www.linkedin.com/in/jtimdwyer/) (former DSI student and TA) put together [this style guide](https://git.generalassemb.ly/DSI-US-6/style_guide). Some recommendations are geared toward future projects (which will include modeling and span multiple notebooks), but generally these are great recommendations.
+[Tim Dwyer](https://www.linkedin.com/in/jtimdwyer/) (former DSI student and TA) put together [this style guide](https://git.generalassemb.ly/DSI-US-7/style_guide). Some recommendations are geared toward future projects (which will include modeling and span multiple notebooks), but generally these are great recommendations.
 
 Here's a link on [how to give a good lightning talk](https://www.semrush.com/blog/16-ways-to-prepare-for-a-lightning-talk/), which provides some good recommendations for short presentations.
 
@@ -70,7 +70,7 @@ Here's a link on [how to give a good lightning talk](https://www.semrush.com/blo
 
 ### Submission
 
-**Materials must be submitted by the beginning of class on November 20.**
+**Materials must be submitted by the beginning of class on March 8th.**
 
 Your technical report will be hosted on Github Enterprise. Make sure it includes:
 
