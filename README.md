@@ -1,174 +1,82 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project 1: Standardized Testing, Statistical Summaries and Inference
 
-### Overview
+### Stephen Godfrey, DSI-CC7-San Francisco
 
-Our first module in DSI covers:
-- basic statistics (distributions, confidence intervals, hypothesis testing)
-- many Python programming concepts
-- programmatically interacting with files and directories
-- visualizations
-- EDA
-- working with Jupyter notebooks for development and reporting
+### Problem Statement
 
-You might wonder if you're ready to start doing data science. While you still have **tons** to learn, there are many aspects of the data science process that you're ready to tackle. Project 1 aims to allow you to practice and demonstrate these skills.
+The question is what actions can be taken to increase the participation rates among high school students in taking the SAT and ACT college entrance exams? 
 
-For our first project, we're going to take a look at aggregate SAT and ACT scores and participation rates from each state in the United States. We'll seek to identify trends in the data and combine our data analysis with outside research to identify likely factors influencing participation rates and scores in various states.
+### Executive Summary
 
-Generally speaking, you will be asked to come up with a data science problem. Here's a specific prompt that should help you craft this statement:
-> The new format for the SAT was released in March 2016. As an employee of the College Board - the organization that administers the SAT - you are a part of a team that tracks statewide participation and recommends where money is best spent to improve SAT participation rates. Your presentation and report should be geared toward **non-technical** executives with the College Board and you will use the provided data and outside research to make recommendations about how the College Board might work to increase the participation rate in a **state of your choice**.
+This project examines data covering participation rates and scores for students taking the SAT and ACT college entrance exam. The data are organized at the state level and contain 2017 and 2018 participation rates and Total, Composite and component scores (except ACT components for 2018 which are not available). This allows for a state-by-state comparison of participation rates and scores for each test. In addition, a second data set consisting of state-level income and population data is used to explore relationships between test participation and scores and state size and average income.
 
----
+The data set is consistent with the observation that many states mandate one of the two tests as a requirement for high school graduation and the notion that students are likely to take only one of the two tests. Furthermore, a strong negative relationship between test participation and average test score is found. This means that states with low participation rates for a given test are likely to see higher average scores than a state with high participation rates on that same test. Comparison of average scores among states with large participation rate differences is not recommended.
 
-### Datasets
+A moderately strong positive relationship between average income by state and SAT participation is found. In other words, higher SAT participation rates are associated with higher state average incomes. And since ACT and SAT participation rates are negatively correlated, the reverse is found for ACT participation rates.
 
-#### Provided Data
+### Conclusions and Recommendations
 
-For this project, you'll have two provided datasets:
+Based on your exploration of the data, what are you key takeaways and recommendations? Choose one state with a lower participation rate and provide a suggestion for how the College Board might increase participation amongst graduating seniors in this state. Are there additional data you desire that would better inform your investigations?
 
-- [2017 SAT Scores](./data/sat_2017.csv)
-- [2017 ACT Scores](./data/act_2017.csv)
+Based on both an examination of the data and a review of state college entrance exam testing policy, it is clear that participation in such tests is heavily influenced by state policy towards testing. Currently, 29 states require that high school students take either the SAT or the ACT with no state requiring students take both.
 
-These data give average SAT and ACT scores by state, as well as participation rates, for the graduating class of 2017.
+To increase participation, states which have not already done so can consider making one of the two a mandatory high school graduation requirement. This policy provides several benefits to education systems and to students. One benefit is that it provides a college-level standardized test that can be used to benchmark students and to measure the efficacy of high-school educational systems. Students are helped in a couple ways. It guides students, usually in their junior year, to complete one common college application requirement. Having completed the requirement and knowing their score can be useful in directing students to consider appropriate schools. Integrating the test into the high school curriculum can also remove barriers to test taking such as the cost or the need to do it on a weekend.
 
-You can see the source for the SAT data [here](https://blog.collegevine.com/here-are-the-average-sat-scores-by-state/), and the source for the ACT data [here](https://blog.prepscholar.com/act-scores-by-state-averages-highs-and-lows). **Make sure you cross-reference your data with your data sources to eliminate any data collection or data entry issues.**
+Consider the case of Colorado which requires a standardized test as part of its high school accountability standards. After a review, the state education board switched from the ACT to the SAT but kept the requirement. The net effect was a large increase in the SAT participation coupled with a large drop in the ACT participation rate from 2017 to 2018. These participation rate changes were accompanied by large changes in average scores with the SAT average declining and the ACT average increasing. This case illustrates the typical outcome of making a test mandatory - a large drop in participation of the other test.
 
-#### Additional Data
+To address this, states will also need to encourage students to take both tests. Such encouragement might come in the form of an elimination of barriers by subsidizing fees and giving students time off for test taking and by converying the benefits of taking both tests to college counselors and advisors.
 
-2018 state-by-state average results and participation for the SAT are available in PDF reports [here](https://reports.collegeboard.org/sat-suite-program-results/state-results). 2018 ACT state-by-state mean composite scores and participation rates are [here](http://www.act.org/content/dam/act/unsecured/documents/cccr2018/Average-Scores-by-State.pdf) .
+Analysis of incomes and test participation show a moderate positive correlation between SAT participation and average state per capita and household income. Since SAT and ACT participation rates are negatively correlated, this results in a negative correlation between ACT participation and income. Participation rates displayed little correlation with state population.
 
-**You will be manually collecting this data (but this responsibility will be shared with your peers--check with your local instructor).**
+Further research into other influential factors, particularly into the benefits to students of taking both the SAT and the ACT, would be helpful to developing a strategy for increasing participation.
 
----
 
-### Deliverables
+### Data
 
-All of your projects will comprise of a written technical report and a presentation. As we continue in the course, your technical report will grow in complexity, but for this initial project it will comprise:
-- A Jupyter notebook that describes your data with visualizations & statistical analysis.
-- A README markdown file the provides an introduction to and overview of your project.
-- Your presentation slideshow rendered as a .pdf file.
-**NOTE**: Your entire Github repository will be evaluated as your technical report. Make sure that your files and directories are named appropriately, that all necessary files are included, and that no unnecessary or incomplete files are included.
+Data sources:
+* 2017 and 2018 SAT and ACT data were provided as a part of project materials.  Comparisons were made by comparison to reports at these sites:
 
-For your first presentation, you'll be presenting to a **non-technical** audience. You should prepare a slideshow with appropriately scaled visuals to complement a compelling narrative. **Presentation duration will differ by market, so check with your local instructor.**
+    * [SAT](https://blog.collegevine.com/here-are-the-average-sat-scores-by-state/)
+    * [ACT](https://blog.prepscholar.com/act-scores-by-state-averages-highs-and-lows)
 
----
 
-### Technical Report Starter Code
+* Income and population data were sourced from Wikipedia at the link below with a further reference to the American Community Survey 1-Year Estimates at the link below:
+    * [Wikipedia data](https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_income)
+    * [American Community Survery](https://www.census.gov/programs-surveys/acs)
 
-Future projects will require you to decide on the entire structure of your technical report. Here, we provide you with [starter code](./code/starter-code.ipynb) in a Jupyter notebook that will help to guide your data exploration and analysis. **If you choose to edit the core structure of this notebook, make sure you don't exclude any of the requested operations**.
+Updated data dictionary.
 
----
+|Feature|Type|Dataset|Description|
+|---|---|---|---|
+|state|object|final_df|State of the data| 
+|sat_part_2017|float|final_df|State participation rate for the SAT in 2017|
+|sat_erw_2017|integer|final_df|State average SAT Evidence-Based Reading and Writing score in 2017|
+|sat_math_2017|integer|final_df|State average SAT Math score in 2017|
+|sat_total_2017|integer|final_df|State average SAT Total score in 2017|
+|act_part_2017|float|final_df|State participation rate for the ACT in 2017|
+|act_eng_2017|float|final_df|State average ACT English score in 2017|
+|act_math_2017|float|final_df|State average ACT Math score in 2017|
+|act_read_2017|float|final_df|State average ACT Reading score in 2017|
+|act_sci_2017|float|final_df|State average ACT Science score in 2017|
+|act_comp_2017|float|final_df|State average ACT Composite score in 2017|
+|sat_part_2018|float|final_df|State participation rate for the SAT in 2018|
+|sat_erw_2018|integer|final_df|State average SAT Evidence-Based Reading and Writing score in 2018|
+|sat_math_2018|integer|final_df|State average SAT Math score in 2018|
+|sat_total_2018|integer|final_df|State average SAT Total score in 2018|
+|act_part_2018|float|final_df|State participation rate for the ACT in 2018|
+|act_comp_2018|float|final_df|State average ACT Composite score in 2018|
+|sat_change_part_17_to_18|float|final_df|2018 less 2017 SAT participation|
+|act_change_part_17_to_18|float|final_df|2018 less 2017 ACT participation|
+|sat_act_part_2017|float|final_df|2017 SAT less 2017 ACT participation|
+|sat_act_part_2017|float|final_df|2018 SAT less 2018 ACT participation|
+|state|object|inc_df_f|State of the data| 
+|per_capita_income|float|inc_df_f|State per capita income 2010 - 2014|
+|median_household_income|float|inc_df_f|State median household income 2010 - 2014|
+|median_family_income|float|inc_df_f|State median family income 2010 - 2014|
+|population|float|inc_df_f|State population|
+|no_of_households|float|inc_df_f|State number of households|
+|no_families|float|inc_df_f|State number of families|
+|sat_part_group|float|inc_df_f|Binned state 2018 SAT participation|
+|act_part_group|float|inc_df_f|Binned state 2018 ACT participation|
 
-### Style Guide and Suggested Resources
 
-[Tim Dwyer](https://www.linkedin.com/in/jtimdwyer/) (former DSI student and TA) put together [this style guide](https://git.generalassemb.ly/DSI-US-7/style_guide). Some recommendations are geared toward future projects (which will include modeling and span multiple notebooks), but generally these are great recommendations.
-
-Here's a link on [how to give a good lightning talk](https://www.semrush.com/blog/16-ways-to-prepare-for-a-lightning-talk/), which provides some good recommendations for short presentations.
-
-[Here's a great summary](https://towardsdatascience.com/storytelling-with-data-a-data-visualization-guide-for-business-professionals-97d50512b407) of the main points of the book _Storytelling with Data_, which I can't recommend enough. [Here's a blog post](http://www.storytellingwithdata.com/blog/2017/8/9/my-guiding-principles) by the author about his guiding principles for visualizations.
-
----
-
-### Submission
-
-**Materials must be submitted by the beginning of class on March 8th.**
-
-Your technical report will be hosted on Github Enterprise. Make sure it includes:
-
-- A README.md (that isn't this file)
-- Jupyter notebook(s) with your analysis (renamed to describe your project)
-- Data files
-- Presentation slides
-- Any other necessary files (images, etc.)
-
-**Check with your local instructor for how they would like you to submit your repo for review.**
-
----
-
-### Presentation Structure
-
-- **Must be within time limit established by local instructor.**
-- Use Google Slides or some other visual aid (Keynote, Powerpoint, etc).
-- Consider the audience. Assume you are presenting to non-technical executives with the College Board (the organization that administers the SATs).
-- Start with the **data science problem**.
-- Use visuals that are appropriately scaled and interpretable.
-- Talk about your procedure/methodology (high level, **CODE IS ALWAYS INAPPROPRIATE FOR A NON-TECHNICAL AUDIENCE**).
-- Talk about your primary findings.
-- Make sure you provide **clear recommendations** that follow logically from your analyses and narrative and answer your data science problem.
-
-Be sure to rehearse and time your presentation before class.
-
----
-
-### Rubric
-Your local instructor will evaluate your project (for the most part) using the following criteria.  You should make sure that you consider and/or follow most if not all of the considerations/recommendations outlined below **while** working through your project.
-
-**Scores will be out of 21 points based on the 7 items in the rubric.** <br>
-*3 points per section*<br>
-
-| Score | Interpretation |
-| --- | --- |
-| **0** | *Project fails to meet the outlined expectations; many major issues exist.* |
-| **1** | *Project close to meeting expectations; many minor issues or a few major issues.* |
-| **2** | *Project meets expectations; few (and relatively minor) mistakes.* |
-| **3** | *Project demonstrates a thorough understanding of all of the considerations outlined.* |
-    
-**Project Organization**
-- Are modules imported correctly (using appropriate aliases)?
-- Are data imported/saved using relative paths?
-- Does the README provide a good executive summary of the project?
-- Is markdown formatting used appropriately to structure notebooks?
-- Are there an appropriate amount of comments to support the code?
-- Are files & directories organized correctly?
-- Are there unnecessary files included?
-- Do files and directories have well-structured, appropriate, consistent names?
-
-**Clarity of Message**
-- Is the problem statement clearly presented?
-- Does a strong narrative run through the project?
-- Does the student provide appropriate context to connect individual steps back to the overall project?
-- Is it clear how the final recommendations were reached?
-- Are the conclusions/recommendations clearly stated?
-
-**Python Syntax and Control Flow**
-- Is care taken to write human readable code?
-- Is the code syntactically correct (no runtime errors)?
-- Does the code generate desired results (logically correct)?
-- Does the code follows general best practices and style guidelines?
-- Are Pandas functions used appropriately?
-- Does the student demonstrate mastery masking in Pandas?
-- Does the student demonstrate mastery sorting in Pandas?
-
-**Data Cleaning and EDA**
-- Does the student fix data entry issues?
-- Are data appropriately labeled?
-- Are data appropriately typed?
-- Are datasets combined correctly?
-- Are appropriate summary statistics provided?
-- Are steps taken during data cleaning and EDA framed appropriately?
-
-**Visualizations**
-- Are the requested visualizations provided?
-- Do plots accurately demonstrate valid relationships?
-- Are plots labeled properly?
-- Plots interpreted appropriately?
-- Are plots formatted and scaled appropriately for inclusion in a notebook-based technical report?
-
-**Research and Conceptual Understanding**
-- Were useful insights gathered from outside sources?
-- Are sources clearly identified?
-- Does the student provide appropriate interpretation with regards to descriptive and inferential statistics? 
-
-**Presentation**
-- Is the problem statement clearly presented?
-- Does a strong narrative run through the presentation building toward a final conclusion?
-- Are the conclusions/recommendations clearly stated?
-- Is the level of technicality appropriate for the intended audience?
-- Is the student substantially over or under time?
-- Does the student appropriately pace their presentation?
-- Does the student deliver their message with clarity and volume?
-- Are appropriate visualizations generated for the intended audience?
-- Are visualizations necessary and useful for supporting conclusions/explaining findings?
-
-### REMEMBER:
-
-This is a learning environment and you are encouraged to try new things, even if they end up failing. While this rubric outlines what we look for in a _good_ project, it is up to you to go above and beyond to create a _great_ project. **Learn from your failures and you'll be prepared to succeed in the workforce**.
